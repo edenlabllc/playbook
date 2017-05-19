@@ -44,11 +44,17 @@ Usually we have System Analysts and Developers in the team who works together on
 
 ## Issue tracking
 
+
 By default we use Github as an issue tracker for all the projects
 
-We use only below issue types. All of them can be used at the same time in one project depends of the need.
-
-   1. feature - should be started from the business expression of the need - link to Confluence. And gradually is enriched by SA or Dev with Business process, ERD, Apiary spec, etc. Usually whenever it is needed something to be developed, new ticket with the `kind/feature` should be created
+Usually we decompose the project into:
+* Epic - item from the scope that has been agreed with the customer. Every epic should have lebel in the GH project. 
+  * **User_Story** - natural language description of one or more features of a software system. GitHub issues with the label `kind/user_story` are used to track. Each User Story should have `epic/` label
+    * **Task** - what has to be done to implement user story. GitHub issues with the label `kind/task` are used to track.
+      * Personal task - decomposed steps of task. Not tracked. It is up to everyone how to organize his personal everyday activities. Looks liuke CheckLists in the GH issues are a very convenient way to do that.
+       
+We use only below issue types in GitHub. All of them can be used at the same time in one project depends of the need. `kind/` group of labels are used to classify issues.
+   1. User_Story - should be started from the business expression of the need - link to Confluence. And gradually is enriched by SA or Dev with Business process, ERD, Apiary spec, etc. Usually whenever it is needed something to be developed, new ticket with the `kind/feature` should be created
      * Must use
      * complex WF
      * can be assigned to SA, Dev 
@@ -79,14 +85,13 @@ We use only below issue types. All of them can be used at the same time in one p
      * Can be assigned to anyone
      * Can be closed by anyone
 
-`user story` style should be used by default whenever new feature is created: "As a <role>, I want <goal/desire> so that <benefit>"
+`User story` style should be used by default whenever new feature is created: "As a <role>, I want <goal/desire> so that <benefit>"
 
 Business process diagram in the [BPMN 2.0 notation](https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation) usually is a result of the design phase.
 
 
-
 ### Feature stages
-We use github labels to track ticket statuses
+We use github labels `status/` to track the ticket status
 
 Below statuses should be used only for the `kind/feature` tickets. 
 * backlog - any new ticket usually is created with this status lable
