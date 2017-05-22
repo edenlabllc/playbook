@@ -54,7 +54,7 @@ Usually we decompose the project into:
       * Personal task - decomposed steps of task. Not tracked. It is up to everyone how to organize his personal everyday activities. Looks liuke CheckLists in the GH issues are a very convenient way to do that.
        
 We use only below issue types in GitHub. All of them can be used at the same time in one project depends of the need. `kind/` group of labels are used to classify issues.
-   1. User_Story - should be started from the business expression of the need - link to Confluence. And gradually is enriched by SA or Dev with Business process, ERD, Apiary spec, etc. Usually whenever it is needed something to be developed, new ticket with the `kind/feature` should be created
+   1. User_Story - should be started from the business expression of the need - link to Confluence. And gradually is enriched by SA or Dev with Business process, ERD, Apiary spec, etc. Usually whenever it is needed something to be developed, new ticket with the `kind/user_story` should be created
      * Must use
      * complex WF
      * can be assigned to SA, Dev 
@@ -84,7 +84,16 @@ We use only below issue types in GitHub. All of them can be used at the same tim
      * Simple WF - backlog, in_progress, done
      * Can be assigned to anyone
      * Can be closed by anyone
-
+   7. technical_debt
+     * optional use
+     * complex WF
+     * can be assigned to SA, Dev 
+     * Can be closed only by SA
+   8. project_office - to mark the tasks of the external teams
+     * Optional use
+     * Simple WF - backlog, in_progress, done
+     * Can be assigned to anyone
+     * Can be closed by anyone
 `User story` style should be used by default whenever new feature is created: "As a <role>, I want <goal/desire> so that <benefit>"
 
 Business process diagram in the [BPMN 2.0 notation](https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation) usually is a result of the design phase.
@@ -103,7 +112,17 @@ Below statuses should be used only for the `kind/feature` tickets.
 * bug - means that it has been tested and some bug was found. In this case it shoud be reassigned to Dev. 
 * wontfix - means that feature has been rejected because of any reason.
 
+Labels `kind/` and `status/` are really important and should be used as it is stated in the playbook.
 
+Also we may use other labels just to make our life easier:
+ * `priority/`
+ * `value/`
+ * `complexity/`
+ * `priority/`
+ * `bug`
+ * `help!`
+ * `do-not-merge`
+ 
 
 ## Sprint retrospective
 
