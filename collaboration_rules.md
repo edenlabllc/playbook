@@ -99,7 +99,7 @@ We use only below issue types in GitHub. All of them can be used at the same tim
 Business process diagram in the [BPMN 2.0 notation](https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation) usually is a result of the design phase.
 
 
-### Feature stages
+### User story stages
 We use github labels `status/` to track the ticket status
 
 Below statuses should be used only for the `kind/feature` tickets. 
