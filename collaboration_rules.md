@@ -36,7 +36,7 @@ Usually we have System Analysts and Developers in the team who works together on
 * Unit testing
 * functional/integration testing on Dev environment based on the aceptance criteria.
 
-## The Definition of Done - ticket has been developed, tested and deployed to the staging environment
+**The Definition of Done - ticket has been developed, tested and deployed to the staging environment**
 
 ## Sprint planning
 
