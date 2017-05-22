@@ -54,42 +54,42 @@ Usually we decompose the project into:
       * Personal task - decomposed steps of task. Not tracked. It is up to everyone how to organize his personal everyday activities. Looks liuke CheckLists in the GH issues are a very convenient way to do that.
        
 We use only below issue types in GitHub. All of them can be used at the same time in one project depends of the need. `kind/` group of labels are used to classify issues.
-   1. User_Story - should be started from the business expression of the need - link to Confluence. And gradually is enriched by SA or Dev with Business process, ERD, Apiary spec, etc. Usually whenever it is needed something to be developed, new ticket with the `kind/user_story` should be created
+   1. __User_Story__ - should be started from the business expression of the need - link to Confluence. And gradually is enriched by SA or Dev with Business process, ERD, Apiary spec, etc. Usually whenever it is needed something to be developed, new ticket with the `kind/user_story` should be created
      * Must use
      * complex WF
      * can be assigned to SA, Dev 
      * Can be closed only by SA
-   2. release - task to deliver 
+   2. __release__ - task to deliver 
      * Must use
      * Simple WF - backlog, in_progress, done
      * Can be assigned to DevOps, Dev
      * Can be closed by anyone
-   3. bug - used to register bugs that has been detected after release
+   3. __Bug__ - used to register bugs that has been detected after release
      * Must use
      * Simple WF - backlog, in_progress, done
      * Can be assigned to Dev
      * Can be closed by anyone
-   4. Design - used to register and track all the activities that need to be done before development starts
+   4. __Design__ - used to register and track all the activities that need to be done before development starts
      * Optional use
      * Simple WF - backlog, in_progress, done
      * Can be assigned to SA, Dev
      * Can be closed by anyone
-   5. Infra - tasks related to the infrastructure setup/configuration
+   5. __Infra__ - tasks related to the infrastructure setup/configuration
      * Optional use
      * Simple WF - backlog, in_progress, done
      * Can be assigned to DevOps
      * Can be closed by anyone
-   6. task - can be used instead of Design, Infra tasks
+   6. __task__ - can be used instead of Design, Infra tasks
      * Optional use
      * Simple WF - backlog, in_progress, done
      * Can be assigned to anyone
      * Can be closed by anyone
-   7. technical_debt
+   7. __technical_debt__
      * optional use
      * complex WF
      * can be assigned to SA, Dev 
      * Can be closed only by SA
-   8. project_office - to mark the tasks of the external teams
+   8. __project_office__ - to mark the tasks of the external teams
      * Optional use
      * Simple WF - backlog, in_progress, done
      * Can be assigned to anyone
