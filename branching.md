@@ -5,7 +5,7 @@ We SHOULD do our best to follow [SemVer v2.0](http://semver.org/).
 To make it easier for developers, all commits MAY be tagged either with change (`[major]`, `[minor]` or a `[feature]`) tags.
 
 CI will decline builds that does not contain at least one commit with change tag. 
-Thus in a **new branch** you MUST start with a meaningful commit (that will go to PR name) with a change tag.
+Thus in a **new feature branch** you MUST start with a meaningful commit (that will go to PR name) with a change tag.
 
 ## Pull Requests
 
