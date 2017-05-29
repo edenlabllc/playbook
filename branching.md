@@ -23,5 +23,17 @@ We use [trunk-based development](https://trunkbaseddevelopment.com/) with releas
 ## Release Branches
 
   - When new version is released, release branch is created. It MUST be named as `vMAJOR.FEATURE` from a latest git tag, eg: `v2.3`.
+  
   - After release branch is created, all code in it goest in a maintenance mode - no new features or breaking changes will be accepted (our CI will try best to check it).
+  
+  ```
+  $ source ./bin/ci/version-info.sh
+  Version information: 
+   - Previous version was 0.4.0
+   - There was 0 major, 1 feature and 0 changes since then
+   - Next version will be 0.5.0
+   - This build changes version that is in maintenance mode
+  [ERROR] You can not add features or breaking changes to the version that is in maintenance mode.
+  ```
+  
   - When hotfix is required, checkout release branch, create hotfix branch from it and merge it back to a release branch with `[minor]` tag. New container will be built.
