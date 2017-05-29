@@ -12,6 +12,7 @@ Thus in a **new feature branch** you MUST start with a meaningful commit (that w
 - PR name MUST have change tag and meaningful description. 
 - PR description SHOULD include references to the relative artifacts for feature implementation.
 - PR comments and commit comments MAY include notes from a developer.
+- PR should be squash-merged to a master branch.
 
 ## Trunk Branch
 
