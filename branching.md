@@ -22,7 +22,7 @@ We use [trunk-based development](https://trunkbaseddevelopment.com/) with releas
 
 ## Release Branches
 
-  - When new version is released, release branch is created. It MUST be named as `vMAJOR.FEATURE` from a latest git tag, eg: `v2.3`.
+  - When new version is released, release branch is created. It MUST be named as `vMAJOR.FEATURE` from a latest git tag, eg: `v2.3`. It MUST start with `Version increment` commit from a CI (so that latest tag will be merged into it).
   
   - After release branch is created, all code in it goest in a maintenance mode - no new features or breaking changes will be accepted (our CI will try best to check it).
   
