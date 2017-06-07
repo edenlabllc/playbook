@@ -4,9 +4,9 @@ All commits MUST go to a trunk (in our case `master`) branch. Each change increm
 
 To make versioning easier we SHOULD follow [SemVer v2.0](http://semver.org/). There are nice helpers on our CI that will help you to follow this guide:
 
-  - for commits to master branch: tag your commits with either `[major]`, `[minor]` or a `[feature]` tags, eg: `git commit -am "Added feature A [feature]"` will bump _feature_ part of a release version.
+  - for commits to master branch: tag your commits with either `[major]`, `[patch]` or a `[minor]` tags, eg: `git commit -am "Added feature A [minor]"` will bump _minor_ part of a release version.
   - for PR you need to tag only first commit and make sure PR title on GitHub contains this tag (it should be done automatically), after squash-merging single tagged commit will go into `master`.
-  - If your change affects docks or some minor technical details and should not create release, simply tag it with `[ci skip]` and Travis won't start build for it.
+  - If your change affects docks or some patch technical details and should not create release, simply tag it with `[ci skip]` and Travis won't start build for it.
 
 CI won't allow you to build commits in master branch that does not increment version.
 
@@ -16,9 +16,9 @@ CI will built changelog for releases, but all commit messages in `master` branch
 
 ## Going into maintenance mode
 
-When some release went to production we SHOULD freeze it's code, to make sure we can apply minor changes (hotfixes) and release them without deploying new functionality.
+When some release went to production we SHOULD freeze it's code, to make sure we can apply patch changes (hotfixes) and release them without deploying new functionality.
 
-To freeze release you need to create branch in format `v{major}.{feature}` from a master branch **after** CI created commit that increments version.
+To freeze release you need to create branch in format `v{major}.{minor}` from a master branch **after** CI created commit that increments version.
 
 Example:
   ```
@@ -35,7 +35,7 @@ Example:
 
 After release branch is created:
 
-  - CI won't build if there are any commits in a release branch that don't have `[minor]` tag. (You cant release features to a maintenance branch).
+  - CI won't build if there are any commits in a release branch that don't have `[patch]` tag. (You cant release minors to a maintenance branch).
   - CI won't build new releases in `master` branch for `0.4.X` versions.
 
 ## Hotfixing code in maintenanced releases
@@ -44,7 +44,7 @@ Ok, there are bug that needs to be fixed and delivered to production, we will st
 
   On a master branch or in PR that will be merged to it:
   ```
-  $ git commit -am "Fixed issue X [minor]"
+  $ git commit -am "Fixed issue X [patch]"
   $ git push origin master
   ```
 
@@ -74,7 +74,7 @@ Ok, there are bug that needs to be fixed and delivered to production, we will st
   $ git fetch origin master
 
   $ git cherry-pick 33d84d6908ba65686b066dbe1e608923f988a560
-  [v0.4 2fe5e77c] Fixed issue X [minor]
+  [v0.4 2fe5e77c] Fixed issue X [patch]
   Date: Wed Jun 7 13:23:55 2017 +0300
   1 file changed, 1 insertion(+), 1 deletion(-)
 
