@@ -4,7 +4,7 @@ All commits MUST go to a trunk (in our case `master`) branch. Each change increm
 
 To make versioning easier we SHOULD follow [SemVer v2.0](http://semver.org/). There are nice helpers on our CI that will help you to follow this guide:
 
-  - for commits to master branch: tag your commits with either `[major]`, `[patch]` or a `[minor]` tags, eg: `git commit -am "Added feature A [minor]"` will bump _minor_ part of a release version.
+  - for commits to master branch: tag your commits with either `[major]`, `[minor]` or a `[patch]` tags, eg: `git commit -am "Added feature A [minor]"` will bump _minor_ part of a release version.
   - for PR you need to tag only first commit and make sure PR title on GitHub contains this tag (it should be done automatically), after squash-merging single tagged commit will go into `master`.
   - If your change affects docks or some patch technical details and should not create release, simply tag it with `[ci skip]` and Travis won't start build for it.
 
