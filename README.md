@@ -2,7 +2,7 @@
 WIP...
 ## Cultural manifesto
 
-## [Collaboration Rules](https://github.com/Nebo15/playbook/blob/master/collaboration_rules.md)
+## [Collaboration Rules](https://github.com/edenlabllc/playbook/blob/master/collaboration_rules.md)
 
 ## Sale
 We are Fintech RnD team
@@ -55,7 +55,7 @@ FE team would also like to know what the project is about
 ## Prototype
 
 ## Development
-### [Versions and Branching](https://github.com/Nebo15/playbook/blob/master/branching.md)
+### [Versions and Branching](https://github.com/edenlabllc/playbook/blob/master/branching.md)
 
 ## Testing
 
