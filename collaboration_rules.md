@@ -22,6 +22,13 @@ The common goal for the whole team is to make sprint done in time and in the com
 
 Usually we have System Analysts and Developers in the team who works together on the product delivery.
 
+### Product Owner (PO)
+* Collect, analyze and document business requirements
+* Business processes design
+* Study best practices
+* Manage project team/scope/budget
+* Backlog of User Stories
+
 ### System analyst (SA)
 * Collect, analyze and document business requirements
 * Business design
@@ -39,12 +46,19 @@ Usually we have System Analysts and Developers in the team who works together on
 **The Definition of Done - ticket has been developed, tested and deployed to the staging environment**
 
 ## Sprint planning
+Sprint planning session should happen before sprint starts. All the project team members should take part in this session.
+PO defines the high-level sprint goal.
+SA presents the user_story or task purpose/details and specs. Any team member can ask questions to clarify the task statement and agree on the implementation options.
+After discussion and evaluation task should be estimated using the Planning Pocker [technique](https://en.wikipedia.org/wiki/Planning_poker)
 
 ## Daily stand-ups
+All the project team members are required to attend scrum meetings. Anyone else is allowed to attend, but is there only to listen. This makes scrum meetings an excellent way for a Scrum team to disseminate information.
+The daily scrum meeting is not used as a problem-solving or issue resolution meeting. Issues that are raised are taken offline and usually dealt with by the relevant subgroup immediately after the meeting. During the daily scrum, each team member answers the following three questions:
+* What did you do yesterday?
+* What will you do today?
+* Are there any impediments in your way?
 
 ## Issue tracking
-
-
 By default we use Github as an issue tracker for all the projects
 
 Usually we decompose the project into:
@@ -125,4 +139,13 @@ Also we may use other labels just to make our life easier:
  
 
 ## Sprint retrospective
-
+The sprint retrospective is usually the last thing done in a sprint. The entire team should participate. 
+Each team member should share his impression on the sprint that has just been finished. 
+Usually it is structured as an answers to the following questions:
+ * What did I do right
+ * What did I do wrong
+ * What the team did right
+ * What the team did wrong
+ * What we should start doing
+ * What we should stop doing
+ * What we should continue doing
