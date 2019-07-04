@@ -14,7 +14,7 @@
     1. ehealth.api
     2. ehealth.web
     3. medical_events
-7. Integration tests should be environment agnostic. It should be possible to run it on any existing environment (dev/devmo/preprod/local).
+7. Integration tests should be environment agnostic. It should be possible to run it on any existing environment (dev/demo/preprod/local).
 8. We have a number of scenarios already implemented for the end-2-end tests on elixir. If we manage to reuse it, we should move with the step definition on Elixir.
     1. If not -python/golang
 9. Fixtures
