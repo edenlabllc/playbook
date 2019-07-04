@@ -43,7 +43,16 @@ Usually we have System Analysts and Developers in the team who works together on
 * Unit testing
 * functional/integration testing on Dev environment based on the aceptance criteria.
 
-**The Definition of Done - ticket has been developed, tested and deployed to the staging environment**
+### Maintainer
+* Keep master branch at production quality at all times.
+* Keep develop branch at deployment quality at all times.
+* Keep `readme.md` and `environment.md` up to date.
+* Accept only [high quality pull-requests](https://github.com/edenlabllc/ehealth.api/blob/develop/docs/CONTRIBUTING.md#pr-review-rules). Provide code reviews and guidance on incoming pull requests.
+* Take part in the new feature design process and be responsible for the proposed technical solution.
+* Any public facing API or UI or architectural or significant changes requires approval from the architect.
+
+
+**The Definition of Done - ticket has been developed, tested and deployed to the dev environment**
 
 ## Sprint planning
 Sprint planning session should happen before sprint starts. All the project team members should take part in this session.
