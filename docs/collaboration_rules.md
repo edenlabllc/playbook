@@ -4,9 +4,9 @@
 
 We organize the development process based on the [agile manifest](http://agilemanifesto.org/principles.html)
 
-But we do not strictly follow any metodology or geek religios. We apply some rules only if it works for us.
+But we do not strictly follow any methodology or geek religious. We apply some rules only if it works for us.
 
-Our teams frequently experiment with different tools and techniques so we can evolve our skills. This applies not only to development work, but to everything we do at EdenLab, from user research to business operations.
+Our teams frequently experiment with different tools and techniques, so we can evolve our skills. This applies not only to development work, but to everything we do at EdenLab, from user research to business operations.
 
 We recognise the importance of planning, compliance and governance, so we work those activities into the process, every step of the way.
 
@@ -15,10 +15,13 @@ We work in sprints, which are fixed-length periods of delivery work with a parti
 
 Sprint duration - 2 weeks
 
-## Responsibility
-We work as one one team and anyone can perrform any task if he has proper skills and will.
+## Freedom and responsibility
+This is one of our values. But simply having it on a poster does not help creating this feeling of freedom nor sharing responsibilities.
 
-The common goal for the whole team is to make sprint done in time and in the commited scope.
+Projects are shaped and prioritised in advance and product teams are free to organize the way they want in order to meet chosen goals within given time and boundaries.
+
+We work as a one team and anyone can perform any task if he has proper skills and will.
+The common goal for the whole team is to make sprint done in time and in the committed scope.
 
 Usually we have System Analysts and Developers in the team who works together on the product delivery.
 
@@ -41,7 +44,7 @@ Usually we have System Analysts and Developers in the team who works together on
 * Technical specs design - jointly with SA
 * Code development
 * Unit testing
-* functional/integration testing on Dev environment based on the aceptance criteria.
+* functional/integration testing on Dev environment based on the acceptance criteria.
 
 ### Maintainer
 * Keep master branch at production quality at all times.

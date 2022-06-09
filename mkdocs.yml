@@ -1,0 +1,10 @@
+site_name: edenlab-playbook
+nav:
+  - Home: SUMMARY.md
+  - API Design: api-design.md
+  - Reading List: reading-list.md
+  - Collaboration Rules: collaboration_rules.md
+  - Fullstack Team: fullstack-team.md
+  - Guides: guides.md
+plugins:
+  - techdocs-core
