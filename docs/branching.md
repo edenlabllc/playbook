@@ -1,6 +1,6 @@
 # Development process
 
-All commits MUST go to a trunk (in our case `master`) branch. Each change increments version, creates tag and docker container. Because of this we can release to development environment frequently or even continuously.
+All commits MUST go to a trunk (in our case `master` or `main`) branch. Each change increments version, creates tag and docker container. Because of this we can release to development environment frequently or even continuously.
 
 To make versioning easier we SHOULD follow [SemVer v2.0](http://semver.org/). There are nice helpers on our CI that will help you to follow this guide:
 
