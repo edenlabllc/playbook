@@ -1,6 +1,6 @@
 site_name: edenlab-playbook
 nav:
-  - Home: SUMMARY.md
+  - Home: index.md
   - API Design: api-design.md
   - Reading List: reading-list.md
   - Collaboration Rules: collaboration_rules.md
