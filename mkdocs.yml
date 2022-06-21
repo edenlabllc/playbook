@@ -1,4 +1,4 @@
-site_name: edenlab-playbook
+site_name: Edenlab Playbook
 nav:
   - Home: index.md
   - API Design: api-design.md
