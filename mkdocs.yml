@@ -6,6 +6,18 @@ nav:
   - Collaboration Rules: collaboration_rules.md
   - Testing: testing.md
   - Fullstack Team: fullstack-team.md
-  - Guides: guides.md
+  - Guides:
+      - Guides: guides.md
+      - Languages:
+          - JavaScript: style-guide/javascript.md
+          - TypeScript: style-guide/typescript.md
+          - Go: style-guide/go.md
+      - Frameworks and platforms:
+          - React: style-guide/react.md
+          - React Native: style-guide/react-native.md
+          - Testing with Jest: style-guide/testing-jest.md
+      - Tools:
+          - GraphQL: style-guide/graphql.md
+
 plugins:
   - techdocs-core
