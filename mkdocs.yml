@@ -4,6 +4,7 @@ nav:
   - API Design: api-design.md
   - Reading List: reading-list.md
   - Collaboration Rules: collaboration_rules.md
+  - Testing: testing.md
   - Fullstack Team: fullstack-team.md
   - Guides: guides.md
 plugins:

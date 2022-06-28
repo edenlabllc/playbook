@@ -23,4 +23,4 @@
         2. Run tests on the existing DB copy.
             1. Using selects to get the required data
             2. Manually fill-in the configuration
-10. Test suit should be part of CD. It should generate human-readable report after deployment (configurable - for eample, we probably won't do it on dev).
+10. Test suit should be part of CD. It should generate human-readable report after deployment (configurable - for example, we probably won't do it on dev).
