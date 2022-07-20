@@ -4,10 +4,13 @@ nav:
   - API Design: api-design.md
   - Reading List: reading-list.md
   - Collaboration Rules: collaboration_rules.md
+  - Architecture Decision Records (ADR):
+      - Overview: adr/index.md
+      - When Should I Write an Architecture Decision Record: adr/adr.md
   - Testing: testing.md
   - Fullstack Team: fullstack-team.md
   - Guides:
-      - Guides: guides.md
+      - Overview: guides.md
       - Languages:
           - JavaScript: style-guide/javascript.md
           - TypeScript: style-guide/typescript.md
