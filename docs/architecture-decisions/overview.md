@@ -6,7 +6,7 @@ description: Overview of Architecture Decision Records (ADR)
 ---
 
 For more information about ADRs, when to write them, and why, please see
-[this](adr.md).
+[this](when-should-i-write-an-architecture-decision-record.md).
 
 Records are never deleted but can be marked as superseded by new decisions or
 deprecated.
