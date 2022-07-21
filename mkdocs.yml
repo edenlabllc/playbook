@@ -5,8 +5,8 @@ nav:
   - Reading List: reading-list.md
   - Collaboration Rules: collaboration_rules.md
   - Architecture Decision Records (ADR):
-      - Overview: adr/index.md
-      - When Should I Write an Architecture Decision Record: adr/adr.md
+      - Overview: architecture-decisions/overview.md
+      - When Should I Write an Architecture Decision Record: architecture-decisions/when-should-i-write-an-architecture-decision-record.md
   - Testing: testing.md
   - Fullstack Team: fullstack-team.md
   - Guides:
