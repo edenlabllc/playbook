@@ -8,4 +8,6 @@ metadata:
 spec:
   type: other
   lifecycle: unknown
-  owner: user:lymychp
+  owner: 
+    kind: User
+    name: lymychp
