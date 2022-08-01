@@ -30,6 +30,7 @@ Over the lifecycle of a system, you will have to make decisions that have a larg
 In our day-to-day, we make small decisions that have little to no impact. The cost of undocumented decisions is hard to measure, but the effects usually include duplicated efforts (other engineers try to solve the same problems) or competing solutions (two third-party libraries that do the same thing). Enough small decisions can compound into a future problem that requires a large process or effort (ie. migration). Documenting these decisions doesn’t have to cost much. ADRs can be lightweight.
 
 When should I write an Architecture Decision Record? Almost always!
+
 1. Do I have a problem? **Yes**
 2. Is there a blessed solution? **Yes**
 3. Is it documented? **No**

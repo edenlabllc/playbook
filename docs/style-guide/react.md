@@ -47,7 +47,7 @@
   introduction, check out [TypeScript in 5 minutes].
 - If our app needs to make network requests and hold state outside of a
   component, we like using GraphQL and our preferred libraries are [Apollo] and [Relay]. We
-  have a [section on `GraphQL`](/graphql) in our Guides.
+  have a [section on `GraphQL`](style-guide/graphql) in our Guides.
 
 [typescript]: https://www.typescriptlang.org/
 [typescript in 5 minutes]: https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
