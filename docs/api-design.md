@@ -55,7 +55,7 @@ Imlementation details can be found in: [Multiverse](https://github.com/Nebo15/mu
 In general there are many flows that we use:
 
 1. oAuth
-2. JVT
+2. JWT
 3. HTTP Basic Token
 
 ### oAuth Authentification
@@ -70,9 +70,9 @@ All requests that require authorization should be made with `Authorization: Bear
 
 You can look at [Facebook oAuth Scopes List](https://developers.facebook.com/docs/facebook-login/permissions), it's a good example of scopes for a big and complex system.
 
-### JVT Authentification (mainly Auth0)
+### JWT Authentification (mainly Auth0)
 
-For JVT flow client access authorization server and exchanges it's credentials to a oAuth token.
+For JWT flow client access authorization server and exchanges it's credentials to a oAuth token.
 All requests that require authorization should be made with `Authorization: Token :token` header.
 
 ### Token-Based Authentification (for API-only projects)
