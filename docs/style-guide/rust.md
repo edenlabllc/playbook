@@ -13,3 +13,7 @@ User-facing errors should be handled with Result with the Issue or ErrorResponse
 ### Services
 
 Handlers (REST or GRPC) should be as thin as possible, all business logic should be in a separate module.
+
+### OWASP
+
+We should follow OWASP principles as described at [https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/)
