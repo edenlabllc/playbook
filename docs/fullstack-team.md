@@ -36,6 +36,10 @@ We write code in a consistent style that emphasizes cleanliness and team communi
 * Don't violate a guideline without a good reason.
 * A reason is good when you can convince a teammate.
 
+## Security
+
+We should follow OWASP principles as described at [https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/)
+
 ## Branch organization
 
 The next branch types are in use in this repo:
