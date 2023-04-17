@@ -24,6 +24,7 @@ programming in style.
 - [JavaScript](style-guide/javascript.md)
 - [TypeScript](style-guide/typescript.md)
 - [Go](style-guide/go.md)
+- [Rust](style-guide/rust.md)
 
 ### Frameworks and platforms
 
