@@ -17,3 +17,13 @@ Handlers (REST or GRPC) should be as thin as possible, all business logic should
 ### Security
 
 We should follow OWASP principles as described at [https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/)
+
+
+### Test coverage
+
+Each part of business logic in services should be covered by unit or functional test.
+Complex features, which require several services interaction should be covered by [behavioural tests](git@github.com:edenlabllc/kodjin.tests.git)
+
+Test coverage in services can be calculated with [tarpaulin](https://github.com/xd009642/tarpaulin) tool
+
+For libraries acceptable test coverage is above 60%. For web services and non web services there is no strict requirement for test coverage.
