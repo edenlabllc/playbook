@@ -2,7 +2,7 @@
 
 ## Code style
 
-Mainly you just need to follow [standard Rust styling and formatting rules](https://github.com/rust-lang/fmt-rfcs/blob/master/guide/guide.md) and make your code easy to understand. It is recommended that you enable auto format on save in your editor.
+Mainly you just need to follow [standard Rust styling and formatting rules](https://github.com/rust-lang/rust/tree/master/src/doc/style-guide/src) and make your code easy to understand. It is recommended that you enable auto format on save in your editor.
 
 Follow [clippy](https://doc.rust-lang.org/stable/clippy/usage.html) lints (this is enforced by CI). Note: sometimes new lints are added in Rust updates, you don't need to fix them all right away in unrelated code as long as the CI succeeds.
 
