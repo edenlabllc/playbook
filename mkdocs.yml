@@ -21,6 +21,8 @@ nav:
           - Testing with Jest: style-guide/testing-jest.md
       - Tools:
           - GraphQL: style-guide/graphql.md
+  - Analytics (BA/SA):
+      - How to Approach Test Planning and Test Data for project: analytics/how-to-approach-test-planning-and-data.md
 
 plugins:
   - techdocs-core
